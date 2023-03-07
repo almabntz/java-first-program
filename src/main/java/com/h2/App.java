@@ -1,5 +1,4 @@
 package com.h2;
-
 /**
  * Hello world!
  *
@@ -17,7 +16,7 @@ public class App
     }
 
     public static int add(int [] numbers) {
-        int sum = 0;
+        var sum = 0;
         for (int i=0; i < numbers.length; i++) {
             sum = sum + numbers[i];
         }
