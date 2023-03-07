@@ -17,8 +17,8 @@ public class App
 
     public static int add(int [] numbers) {
         var sum = 0;
-        for (int i=0; i < numbers.length; i++) {
-            sum = sum + numbers[i];
+        for (int number: numbers) {
+            sum += number;
         }
         return sum;
     }
